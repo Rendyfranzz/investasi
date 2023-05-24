@@ -5,7 +5,7 @@ import { Rupiah } from '../utils/Rupiah'
 
 const Result = ({data}) => {
   const navigate = useNavigate()
-  const res = parseInt(data.invest)+data.result
+  const res = parseInt(data.invest)+parseInt(data.result)
  
   return (
     <Layout>
