@@ -47,6 +47,7 @@ const Home = ({ setData }) => {
                             <input className='font-normal bg-transparent' onChange={e => setBunga(e.target.value)} type='number' placeholder='Masukan Suku Bunga' required />
                         </div>
                         <div className='flex flex-col'>
+                        <label>Pilih Durasi</label>
                             <select className='font-normal bg-transparent' onChange={e => setTime(e.target.value)}>
                                 <option value="" disabled>Pilih salah satu</option>
                                 <option value="Bulan">Bulan</option>
